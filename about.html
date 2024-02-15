@@ -1,0 +1,151 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>Genshin Impact</title>
+        <link rel="stylesheet" href="css/about.css">
+    </head>
+    <body>
+
+        <!--header-->
+        <header>
+            <!--making a menu bar for the header-->
+            <nav>
+                <!--usimg an image for the logo of this website-->
+                <img src="pics/logo.png" alt="genshin impact logo" id="logo">
+                <!-- this unordered list is where the navigation part where user can click to move to different pages-->
+                <ul>
+                    <li><a href="index.html" id>Home</a></li>
+                    <li><a href="about.html">About Game</a></li>
+                    <li><a href="plot.html">Plot</a></li>
+                    <li><a href="teyvat.html">Teyvat</a></li>
+                    <li><a href="characters.html">Characters</a></li>
+                </ul>
+            </nav>
+        </header>
+
+        <main>
+            <h1>Welcome to the Genshin Impact Website</h1>
+            <section class="section1">
+                <h2>Introduction</h2>
+                <!--In his first section ill put the opening video of the game for the introduction-->
+                <!--so for the video i screen recorded it but also put a text saying i don't own the video throughout the video
+                as i am a disclaimer of that video so I'll put that just in case for copy right purposes and i will have a link button
+                of the original video under the video-->
+                <!--The reason i had to screen record was because i was having difficulty
+                embedding a YouTube video so i thought i screen record and put a disclaimer message there along with the link of the
+                original video, where i got the video from n all-->
+                
+                <!--This is the video I am using-->
+
+                <article class="intro">
+                  <div class="text">Genshin Impact is a story based game. You get a choice to choose one of thw twins and the plot will
+                    remain the same regardless of which twin you pick because in the story you will get seperated from your twin and have
+                    to fund your twin at the end of your journey.
+                    A floating campanion named paimon will be your travel guide as you saved her from drowning while fishinh and will help you throughout the game
+                  </div>
+                    <video width="600px" height="300px" controls autoplay>
+                        <source src="vid/genshinopening.mp4" type="video/mp4"/>
+                    </video>
+
+                </article>
+
+                <br><br>
+
+                <a href="https://www.youtube.com/watch?v=ShB3vNlSdDA" target="_blank" class="YouTubebutton">
+                    Click here to watch the original video on YouTube
+                </a>
+
+            </section>
+
+            <section>
+              <h3>Reactions</h3>
+                <article class="slider">
+
+                    <div class="wrapper">
+
+                        <div class="box">
+                          <img src="pics/guide/reactions/freeze.jpg">
+                        </div>
+                        <div class="box">
+                          <img src="pics/guide/reactions/bloom.jpg">
+                        </div>
+                        <div class="box">
+                          <img src="pics/guide/reactions/burn.jpg">
+                        </div>
+                        <div class="box">
+                          <img src="pics/guide/reactions/swirl.jpg">
+                        </div>
+                        <div class="box">
+                          <img src="pics/guide/reactions/superconduct.jpg">
+                        </div>
+                        <div class="box">
+                          <img src="pics/guide/reactions/melt.jpg">
+                        </div>
+                        <div class="box">
+                          <img src="pics/guide/reactions/overload.jpg">
+                        </div>
+                        <div class="box">
+                          <img src="pics/guide/reactions/vaporize.jpg">
+                        </div>
+                        <div class="box">
+                          <img src="pics/guide/reactions/crystallize.jpg">
+                        </div>
+                        <div class="box">
+                          <img src="pics/guide/reactions/crystallize 2.jpg">
+                        </div>
+
+                    </div>
+                        <br>
+                        
+                    <div style="text-align:center">
+                      <span class="dot" onclick="currentSlide(1)"></span> 
+                      <span class="dot" onclick="currentSlide(2)"></span> 
+                      <span class="dot" onclick="currentSlide(3)"></span>
+                      <span class="dot" onclick="currentSlide(4)"></span>
+                      <span class="dot" onclick="currentSlide(5)"></span>
+                      <span class="dot" onclick="currentSlide(6)"></span>
+                      <span class="dot" onclick="currentSlide(7)"></span>
+                      <span class="dot" onclick="currentSlide(8)"></span>
+                      <span class="dot" onclick="currentSlide(9)"></span>
+                      <span class="dot" onclick="currentSlide(10)"></span>
+                    </div>
+
+                </article>
+              </section>
+
+
+              <section>
+                <!--writing beginner friendly tips which beginners often make-->
+                <article style="text-align: left;">
+                  <h2>Genshin Impact Tips for Beginners:</h2>
+                  <ul>
+                    <li>Doing your daily commissions which will take about 15 minutes</li>
+                    <li>Farm in domains or the leylines on a daily basis</li>
+                    <li>Open as many teleport waypoints as possible so you can teleport through the map instead of walking or running</li>
+                    <li>Cook heaing food in advance before any fight</li>
+                    <li>Focus on Archon Quests because that is that main story</li>
+                    <li>Level up your favorite characters and try to build them along with their weapon</li>
+                    <li>Leveling up Adventure Rank to get greater rewards</li>
+                    <li>Collect all the anemoculous and the geoculous to increase your stamina to max level</li>
+                    <li>Use your mora and primogems carefully</li>
+                    <li>Achivements give you 5-20 primogems</li>
+                    <li>Collect any plant you see or attack any tree to get wood</li>
+                    <li>Domains. There are 3 types: weapon, books and artifacts for your characters</li>
+                    <li>Beat weekly bosses and also the weekly bounties</li>
+                    <li>if you reach Adventure rank 16, you can play in coop mode</li>
+                    <li>Seelie: follow them because they will lead you to a treasure</li>
+                    <li>You can unlock an area by unlocking the statue of seven but make sure you are on single mode first</li>
+                    <li>You can pull wishes on banners with 160 primogem to get a chance to pull your favorite characters</li>
+
+                  </ul>
+
+                </article>
+            </section>
+
+           
+        </main>
+        <footer>@Gaming Themed website for Assessment 2: Genshin Impact by Noor Zahra</footer>
+
+        <script src="javascript/about.js"></script>
+    </body>
+</html>

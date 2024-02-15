@@ -1,0 +1,303 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>Genshin Impact</title>
+        <link rel="stylesheet" href="css/home.css">
+    </head>
+    <body>
+
+        <!--header-->
+        <header>
+            <!--making a menu bar for the header-->
+            <nav>
+                <!--usimg an image for the logo of this website-->
+                <img src="pics/logo.png" alt="genshin impact logo" id="logo">
+                <!-- this unordered list is where the navigation part where user can click to move to different pages-->
+                <ul>
+                    <li><a href="index.html" id>Home</a></li>
+                    <li><a href="about.html">About Game</a></li>
+                    <li><a href="plot.html">Plot</a></li>
+                    <li><a href="teyvat.html">Teyvat</a></li>
+                    <li><a href="characters.html">Characters</a></li>
+                </ul>
+            </nav>
+        </header>
+
+
+        <!--main content of the page which is different in each page-->
+        <main>
+            <h1>Welcome to the Genshin Impact Website</h1>
+            <section>
+                <h1>Upcoming Events</h1>
+                <img src="pics/home bg.webp" width="1050px">
+                <p>
+                    Don't forget to keep a look out for this new event in version 3.7 where you can get free rewards and be introduced to 2
+                    new 4 star characters and pull for them. The first new character has already been introduced, Kirara: a 4 star sword user who
+                    hold the vision of dendro from inazuma who works as a delivery girl. The second new character is Charlotte who is first character 
+                    to be introduced from fontaine and also the first cryo catalyst user in the game so don't miss her to finally use that weapon 
+                    and bridge ice more easily (Goodbye waiting for La Signora who is a cryo catalyst user.)
+                </p>
+            </section>
+
+            <h1>Banners of 3.7</h1>
+
+            <section class="section2">
+                <br>
+                <h2>Phase 1 Banners: Already released</h2>
+                <br>
+
+
+
+                <h2 style="text-align: center;">The current 5 star Characters available in banner</h2>
+
+                <div class="character" id="yoimiyacard">
+                    <div class="card">
+                        <div class="characterpic">
+                            <img src="pics/characters/yoimiya.png" 
+                            alt="yoimiyapic"
+                            style="width:400px;">
+                        </div>
+                        <div class="info">
+                            <h3>Yoimiya</h3>
+                            <!--writing a star symbol code 5 times to tell the user it's a 5 star character-->
+                            <p>	&#11088; 	&#11088; 	&#11088;	&#11088;   &#11088;</p>
+                            <p>Weapon: bow</p>
+                            <p>"Never fear, Yoimiya's here"</p>
+                            <button onmousedown="yoimiya.play()">
+                                <img src="pics/playbutton.png" alt="play button" width="10px">
+                                voiced by: Jenny Yokobori
+                            </button>
+                            <p>Yoimiya is a 5 star bow user character who holds the pyro vision meaning she can weild the power of fire.</p>
+                        </div>
+                    </div>
+                    <img src="pics/banner/Yoimiya_Card.webp" alt="yoimiya" id="chrcard">
+                </div>
+
+                <div class="character" id="yaemikocard">
+                    <img src="pics/banner/Yae_Miko_Card.webp" alt="yaemiko" id="chrcard">
+                    <div class="card">
+                        <div class="info">
+                            <h3>Yae Miko</h3>
+                            <!--writing a star symbol code 5 times to tell the user it's a 5 star character-->
+                            <p>	&#11088; 	&#11088; 	&#11088;	&#11088;    &#11088;</p>
+                            <p>Weapon: catalyst</p>
+                            <p>"Well, what do we have here?"</p>
+                            <button onmousedown="yaemiko.play()">
+                                <img src="pics/playbutton.png" alt="play button" width="10px">
+                                voiced by: Ratana
+                            </button>
+                            <p>Yae Miko is a 5 star catalyst user who has the vision of electro from Inazuma. She is the familiar of the 
+                                Archon Raiden Shogun, works as the Head of the Grand Narukumi Shrine in Inazuma and She is also the owner
+                                of the Yae Publishing house and serves as the Editor-in-Cheif.
+                            </p>
+                            <p>Fun fact: Has a Kitsune, Yae Miko having 5 tails means she's 500 years old because a kitsune gets an additional 
+                                new tail every century</p>
+                        </div>
+                        <div class="characterpic">
+                            <img src="pics/banner/Yae-Miko-Genshin-Impact.webp" 
+                            alt="yaemikopic"
+                            style="width: 400px;">
+                        </div>
+                    </div>
+
+                </div>
+
+                <h2 style="text-align: center; margin-bottom: -50px;">Current Banners</h2>
+                <div class="banners">
+                    <img src="pics/banner/banner1p1.webp" alt="banner 1">
+                    <img src="pics/banner/banner2p1.webp" alt="banner 2">
+                    <img src="pics/banner/weaponbannerp1.webp" alt="weapon banner">
+                </div>
+
+
+            </section>
+
+            <h2>Upcoming Phase 2 of 3.7</h2>
+            <section class="section3">
+                <h2>Next upcoming Banners</h2>
+
+
+                <div class="character" id="kazuhacard">
+
+                    <img src="pics/banner/Kaedehara_Kazuha_Card.webp" alt="kazuha" id="chrcard">
+
+                    <div class="card">
+                        <div class="info">
+                            <h3>Kaedehara Kazuha</h3>
+                            <!--writing a star symbol code 5 times to tell the user it's a 5 star character-->
+                            <p>	&#11088; 	&#11088; 	&#11088;	&#11088;	&#11088;</p>
+                            <p>Weapon: sword</p>
+                            <p>"Brings a smile to my face."</p>
+                            <button onmousedown="kazuha.play()">
+                                <img src="pics/playbutton.png" alt="play button" width="10px">
+                                voiced by: Mark Whitten
+                            </button> 
+                            <p>
+                                Kaedehara Kazuha is a 5 star sword user character who holds the vision of anemo who has a 
+                                gentle personality but burden by the events that took place in the past and killed his friend.
+                                He does travelling to find peace and follows whereever the wind leads him to. His banner will have a 
+                                rerun in the next banner of version 3.7 in phase two
+                            </p>                                  
+                        </div>
+                        <div class="characterpic">
+                            <img src="pics/characters/kazuha.webp" 
+                            alt="kazuhapic"
+                            style="width: 400px;">
+                        </div>
+                    </div>
+                </div>
+
+                <div class="character" id="alhaithamcard">
+                    
+                    <div class="card">
+                        <div class="characterpic">
+                            <img src="pics/characters/alhaitham.webp" 
+                            alt="alhaithampic"
+                            style="width: 400px;">
+                        </div>
+                        <div class="info">
+                            <h3>Al Haitham</h3>
+                            <!--writing a star symbol code 5 times to tell the user it's a 5 star character-->
+                            <p>	&#11088; 	&#11088; 	&#11088;	&#11088;   &#11088;</p>
+                            <p>Weapon: sword</p>
+                            <p>"The scribe's work is simple, which is exactly why I took the position."</p>
+                            <button onmousedown="alhaitham.play()">
+                                <img src="pics/playbutton.png" alt="play button" width="10px">
+                                voiced by: Nazeeh Tarsha
+                            </button>
+                            <p>
+                                Alhaitham is a 5 star sword user character from Sumeru who holds the vision of dendro and works
+                                as a scribe in the Academiya and his banner will have a rerun in the next banner of version 3.7
+                                in phase two
+                            </p>
+                        </div>
+                    </div>
+
+                    <img src="pics/banner/Alhaitham_Card.webp" alt="alhaitham" id="chrcard">
+                    
+                </div>
+
+
+                
+            </section>
+
+            <h2>New Characters</h2>
+            <section class="section4">
+
+                <!--making a card of kirara who is a new character-->
+                <article class="character" id="kiraracard">
+                    <img src="pics/kirara/Kirara_Card.webp" alt="kirara" id="chrcard">
+                    <div class="card">
+                        <div class="info" style="width: 60%;">
+                            <h3>charlotte</h3>
+                            <!--writing a star symbol code 4 times to tell the user it's a 4 star character-->
+                            <p>	&#11088; 	&#11088; 	&#11088;	&#11088; </p>
+                            <p>Weapon: sword</p>
+                            <p>"I wonder what's inside this package...no no no. No peeking at my customer's stuff."</p>
+                            <button onmousedown="kirara.play()">
+                                <img src="pics/playbutton.png" alt="play button" width="10px">
+                                voiced by: Sayumi Suzushiro
+                            </button>
+                            <p>
+                                Kirara is a 4 star sword from inazuma user who holds the vision of dendro and works as a 
+                                delivery girl.And here's something cool about her: If you press and hold her skill she can 
+                                curl herself into a special delivery express box and her cat form can also help you climb anything
+                                without your stamina being too consumed. No wonder sha can make those deliveries super fast all over inazuma.
+                            </p>
+                        </div>
+                        <div class="characterpic">
+                            <img src="pics/kirara/Character_Kirara_Full_Wish.webp" 
+                            alt="kirarapic"
+                            style="width: 430px; margin-top: 30px;">
+                        </div>
+                    </div>
+                </article>
+
+
+            </section>
+
+            <br>
+
+            <h2>Spoiler</h2>
+        
+
+            <section>
+                <br>
+
+                <h2>Sneak peek to the new character Charlotte and some cool emojis</h2>
+                <article class="character" id="charlottecard">
+                    <img src="pics/charlotte/Charlotte_in_game.webp" alt="charlotte" id="chrcard">
+                    <div class="card">
+                        
+                        <div class="characterpic">
+                            <img src="pics/charlotte/img1.jpg" alt="" style="width: 300px; margin: 10px;"
+                            onmouseover="this.src='pics/charlotte/img2.jpg'"
+                            onmouseout="this.src='pics/charlotte/img1.jpg'">
+                        </div>
+
+                        <div class="info" style="width: 50%;">
+                            <h3>HOVER HERE!</h3>
+
+                            <!--using inline java for the images to switch on hover-->
+                            <img src="pics/charlotte/Icon_Emoji_1.webp" alt="charlottepic"
+                            onmouseover="this.src='pics/charlotte/Icon_Emoji_2.webp'"
+                            onmouseout="this.src='pics/charlotte/Icon_Emoji_1.webp'">
+
+                            <img src="pics/kirara/Icon_Emoji_kirara.webp" alt="kirarapic"
+                            onmouseover="this.src='pics/kirara/Icon_Emoji_cat.webp'"
+                            onmouseout="this.src='pics/kirara/Icon_Emoji_kirara.webp'">
+                    </div>
+                </article>
+            </section>
+            <br>
+            <h1>Download Genshin Impact</h1>
+            <!--making a download section if the user is interested in the game-->
+            <section class="downloadsection">
+
+                <div class="download">
+                    <h3>Download Now</h3>
+
+                    <div class="the3buttonsinsec2">
+                        <a href="https://www.playstation.com/ar-ae/games/genshin-impact/" 
+                        target="_blank">
+
+                            <img src="pics/Playstation_logo.png"
+                            alt="playstation logo"
+                            style="width: 60px;">
+
+                            <p>Playstation</p>
+
+                        </a>
+                            
+                        <a href="" 
+                        target="_blank">
+
+                            <img src="pics/googleplay_logo.avif" 
+                            alt="google playstore logo"
+                            style="width: 40px;">
+
+                            <p>Google Playstore</p>
+
+                        </a>
+            
+                        <a href="https://apps.apple.com/app/id1517783697" 
+                        target="_blank">
+
+                            <img src="pics/apple_logo.png" 
+                            alt="apple store logo"
+                            style="width: 40px;">
+
+                            <p>Apple store</p>
+                        </a>
+                        
+                    </div>
+                </div>
+                
+            </section>
+        </main>
+
+        <footer>@Gaming Themed website for Assessment 2: Genshin Impact by Noor Zahra</footer>
+
+        <script src="javascript/home.js"></script>
+    </body>
+</html>
