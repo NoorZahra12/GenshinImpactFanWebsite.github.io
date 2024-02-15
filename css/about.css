@@ -1,0 +1,167 @@
+body{
+    margin: 0;
+    padding: 0;
+    background-image: url(pics/glitter-purple.gif);
+    color: white;
+}
+
+/*styling the navigation bar*/
+header{
+    background-image: url(pics/header.jpg);
+    background-color: rgba(29, 29, 82, 0.284);
+    height: 80px;
+}
+
+/*sizing the img tag inside the nav which i named it logo*/
+#logo{
+    width: 200px;
+    height: 80px;
+    filter: drop-shadow(0 0 5px 5px darkblue);
+}
+/*displaying the items inside ul in horizontal by using flex*/
+nav ul {
+    list-style: none;
+    display: flex;
+    margin-top: -50px;
+    margin-left: 700px;
+}
+
+/*creating a distance betweeen the items in list*/
+nav ul li {
+    margin-right: 15px;
+}
+
+/*styling*/
+nav ul li a {
+    padding: 10px;
+    border-radius: 2px;
+    color: white;
+    background-color:rgb(28, 0, 120);
+    border-radius: 30px;
+    text-decoration: none;
+}
+
+/*changes made when user hovers*/
+nav ul li a:hover {
+    background-color: rgba(156, 139, 255, 0.878);
+    text-decoration: underline;
+}
+
+main{
+    width: 95%;
+    margin: auto;
+}
+
+section{
+    background-color: rgba(22, 41, 127, 0.664);
+    margin: auto;
+    text-align: center;
+    padding: 50px;
+    margin: 50px;
+    border-radius: 10px;
+    border: 1px solid white;
+    box-shadow: 0 0 5px 5px rgba(1, 1, 153, 0.626);
+}
+
+/*atyling the first section*/
+.intro{
+    display: flex;
+    gap: 5px;
+}
+/*styling the text inside the first section*/
+.intro .text{
+    padding: 25px;
+    text-align: left;
+    background-color: rgba(46, 255, 255, 0.205);
+    font-size: large;
+    border-radius: 15px;
+    margin: 15px;
+}
+
+/*styling the a tag to look like a button*/
+a{
+    background-color: rgb(123, 79, 255);
+    border-radius: 30px;
+    padding: 15px;
+    text-decoration: none;
+}
+
+h1{
+    text-align: center;
+    font-size: xx-large;
+    text-shadow: 0 0 15px rgb(136, 0, 255);
+}
+
+
+
+
+
+
+
+
+/*styling the image slider*/
+
+
+
+
+
+/*styling the slider background*/
+.slider{
+    background-color: rgba(0, 0, 0, 0.749);
+    padding: 10px;
+    border-radius: 10px;
+}
+.box{
+    display: none;
+}
+.box img {
+    width: 500px;
+    height: 350px;
+    vertical-align: middle;}
+
+/* the container which has all the images and dot navigation */
+.wrapper {
+  max-width: 1000px;
+  position: relative;
+  margin: 5px;
+  border-radius: 5px;
+  padding: 4px;
+}
+/* The dots which user can navigate with */
+.dot {
+  cursor: pointer;
+  height: 15px;
+  width: 15px;
+  margin: 0 2px;
+  background-color: #4e4e4e;
+  border-radius: 50%;
+  display: inline-block;
+  transition: background-color 0.6s ease;
+}
+
+.active, .dot:hover {
+  background-color: #ffffff;
+}
+/*adding a fading animation*/
+.fade {
+  animation-name: fade;
+  animation-duration: 1.5s;
+}
+
+@keyframes fade {
+  from {opacity: .4} 
+  to {opacity: 1}
+}
+
+
+
+
+
+
+
+
+footer{
+    background-color: darkblue;
+    width: 100%;
+    text-align: center;
+}

@@ -1,0 +1,280 @@
+/*just prefer to not have any spaces and start from zero so i can add space on places i want on my own where I want to add*/
+body{
+    margin: 0;
+    padding: 0;
+    color: white;
+    background-image: url(pics/glitter-purple.gif);
+}
+
+/*this is so that the scrolling of the page when user clicks sideber is smooth and not sudden*/
+html{
+    scroll-behavior: smooth;
+}
+
+
+h1{
+    text-align: center;
+    text-shadow: 0 0 10px rgb(0, 4, 255);
+}
+
+h2{
+    text-align: left;
+    margin-left: 50px;
+}
+
+/*styling the header*/
+header{
+    position: fixed;
+    background-image: url(pics/header.jpg);
+    background-color: rgba(29, 29, 82, 0.284);
+    height: 80px;
+    width: 100%;
+    z-index: 1;
+}
+
+/*sizing the img tag inside the nav which i named it logo and also adding a shadow of the text inside the image by using a fliter*/
+#logo{
+    width: 200px;
+    height: 80px;
+    filter: drop-shadow(0 0 5px 5px darkblue);
+}
+
+/*displaying the items inside ul in horizontal by using flex as horizontal alignment is the default direction of flex 
+and also making the ul a parent */
+nav ul {
+    list-style: none;
+    display: flex;
+    margin-top: -50px;
+    margin-left: 700px;
+}
+ 
+/*creating a distance betweeen the items in list*/
+nav ul li {
+    margin-right: 15px;
+}
+
+/*styling*/
+nav ul li a {
+    padding: 10px;
+    border-radius: 2px;
+    color: white;
+    background-color: rgb(28, 0, 120);
+    border-radius: 30px;
+    text-decoration: none;
+}
+
+/*changes made when user hovers*/
+nav ul li a:hover {
+    background-color: rgba(156, 139, 255, 0.878);
+    text-decoration: underline;
+}
+
+
+main{
+    display: flex;
+    margin-bottom: 10%;
+    padding-top: 80px;
+}
+
+
+section{
+    background-color: rgba(144, 144, 144, 0.34);
+    text-align: center;
+    width: 950px;
+    margin: auto;
+    padding: 10px;
+    border-radius: 10px;
+    margin-bottom: 30px;
+}
+
+
+
+aside{
+    position: fixed;
+    background-color: rgba(140, 99, 237, 0.637);
+    margin-top: auto;
+    width: 18%;
+    height: 90vh;
+
+}
+
+aside ul{
+    margin-left: -30px;
+    margin-right: 10px;
+    display: grid;
+    gap: 5px;
+}
+
+aside ul li{
+    list-style: none;
+}
+
+aside ul li a {
+    color: blueviolet;
+    text-decoration: none;
+    display: flex;
+    background-color: rgb(255, 255, 255);
+    border-radius: 5px;
+}
+
+aside ul li a img{
+    width: 50px;
+    height: 50px;
+}
+
+/*this container holds*/
+.container{
+    width: 80%;
+    margin-left: 20%;
+}
+
+
+article{
+    padding: 5px;
+
+}
+
+
+
+
+
+
+
+
+
+/*archon character card*/
+/*archon character basically rule each region so that's why i'm including them*/
+.character{
+    display: flex;
+    gap: 20px;
+    padding: 10px;
+}
+
+.character #chrcard{
+    height: 400px;
+    background-color: blueviolet;
+}
+
+.character .card{
+    display: flex;
+    background-color: rgba(0, 0, 0, 0.666);
+    border-radius: 20px;
+    padding: 10px;
+    margin: 10px;
+    width: 930px;
+}
+
+.character .card .info{
+    width: 72%;
+    text-align: left;
+    padding: 10px;
+
+}
+
+button{
+    background-color: dodgerblue;
+    border-radius: 20px;
+}
+
+
+
+
+
+
+
+
+/**/
+.landmarklocations{
+    background-color: rgba(15, 15, 57, 0.749);
+    border-radius: 10px;
+}
+
+.box{
+    display: none;
+}
+
+.box img {
+    width: 700px;
+    height: 300px;
+    vertical-align: middle;}
+
+/* the container which has all the images and dot navigation */
+.wrapper {
+  max-width: 1000px;
+  position: relative;
+  margin: 5px;
+  border-radius: 5px;
+  padding: 4px;
+}
+
+/* Caption text */
+.text {
+  color: white;
+  text-shadow: 0 0 3px rgb(0, 0, 61);
+  padding: 10px;
+  font-size: large;
+  position: absolute;
+  text-align: center;
+  width: 100%;
+  margin-top: -50px;
+}
+
+
+/* The dots which user can navigate with */
+.dot {
+  cursor: pointer;
+  height: 15px;
+  width: 15px;
+  margin: 0 2px;
+  background-color: #4e4e4e;
+  border-radius: 50%;
+  display: inline-block;
+  transition: background-color 0.6s ease;
+}
+/*only the active dot will be white and the dot which the user will hover on*/
+.active, .dot:hover {
+  background-color: #ffffff;
+}
+
+
+
+
+
+
+/*this is the parent of the simple image slider*/
+.parent{
+    display: grid;
+    grid-auto-flow: column;
+    scroll-behavior: auto;
+    gap: 10px;
+    overflow-y: auto;
+    overscroll-behavior-x: contain;
+    scroll-snap-type: x mandatory;
+    scrollbar-width: none;
+
+}
+
+.parent::-webkit-scrollbar{
+    display: none;
+}
+
+/*this is the styling of each child inside the parent*/
+.parent img{
+    scroll-snap-align: start;
+    margin: 5px;
+    width: 300px;
+    height: 200px;
+}
+
+
+/*there was extra space under the coming soon article so just cutting that out*/
+#natlan{
+    margin-bottom: -70px;
+}
+
+/*styling the footer*/
+footer{
+    background-color: darkblue;
+    width: 100%;
+    text-align: center;
+}

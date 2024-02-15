@@ -1,0 +1,80 @@
+body{
+    margin: 0;
+    padding: 0;
+    background-image: url(pics/glitter-purple.gif);
+    color: white;
+    text-align: left;
+}
+
+/*styling the navigation bar*/
+header{
+    background-image: url(pics/header.jpg);
+    background-color: rgba(29, 29, 82, 0.284);
+    height: 80px;
+}
+
+/*sizing the img tag inside the nav which i named it logo*/
+#logo{
+    width: 200px;
+    height: 80px;
+    filter: drop-shadow(0 0 5px 5px darkblue);
+}
+/*displaying the items inside ul in horizontal by using flex*/
+nav ul {
+    list-style: none;
+    display: flex;
+    margin-top: -50px;
+    margin-left: 700px;
+}
+
+/*creating a distance betweeen the items in list*/
+nav ul li {
+    margin-right: 15px;
+}
+
+/*styling*/
+nav ul li a {
+    padding: 10px;
+    border-radius: 2px;
+    color: white;
+    background-color:rgb(28, 0, 120);
+    border-radius: 30px;
+    text-decoration: none;
+}
+
+/*changes made when user hovers*/
+nav ul li a:hover {
+    background-color: rgba(156, 139, 255, 0.878);
+    text-decoration: underline;
+}
+
+main{
+    width: 95%;
+    margin: auto;
+}
+
+section{
+    background-color: rgba(22, 41, 127, 0.664);
+    margin: auto;
+    padding: 50px;
+    margin: 50px;
+    border-radius: 10px;
+    border: 1px solid white;
+    box-shadow: 0 0 5px 5px rgba(1, 1, 153, 0.626);
+    line-height: 20px;
+}
+
+section ul li{
+    list-style: square;
+}
+
+h1 , h2{
+    text-align: center;
+    text-shadow: 0 0 15px rgb(128, 0, 255);
+    margin: 5px;
+}
+p, li{font-size: large;}
+
+img{
+    width: 990px;
+}

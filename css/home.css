@@ -1,0 +1,209 @@
+/*THIS IS THE CSS WHICH WILL REMAIN THE SAME IN ALL PAGES*/
+
+/*just prefer to not have any spaces and start from zero so i can add space on places i want on my own where I want to add*/
+body{
+    margin: 0;
+    padding: 0;
+    color: white;
+    background-image: url(pics/glitter-purple.gif);
+}
+
+h1{
+    text-align: center;
+    font-size: xx-large;
+    text-shadow: 0 0 15px rgb(136, 0, 255);
+}
+
+h2{
+    text-align: left;
+    font-size: x-large;
+    margin-left: 50px;
+    text-shadow: 0 0 6px blue;
+}
+
+/*styling the header*/
+header{
+    background-image: url(pics/header.jpg);
+    background-color: rgba(29, 29, 82, 0.284);
+    height: 80px;
+}
+
+/*sizing the img tag inside the nav which i named it logo and also adding a shadow of the text inside the image by using a fliter*/
+#logo{
+    width: 200px;
+    height: 80px;
+    filter: drop-shadow(0 0 5px 5px darkblue);
+}
+
+/*displaying the items inside ul in horizontal by using flex as horizontal alignment is the default direction of flex 
+and also making the ul a parent */
+nav ul {
+    list-style: none;
+    display: flex;
+    margin-top: -50px;
+    margin-left: 700px;
+}
+ 
+/*creating a distance betweeen the items in list*/
+nav ul li {
+    margin-right: 15px;
+}
+
+/*styling*/
+nav ul li a {
+    padding: 10px;
+    border-radius: 2px;
+    color: white;
+    background-color:rgb(28, 0, 120);
+    border-radius: 30px;
+    text-decoration: none;
+}
+
+/*changes made when user hovers*/
+nav ul li a:hover {
+    background-color: rgba(156, 139, 255, 0.878);
+    text-decoration: underline;
+}
+
+main{
+    width: 95%;
+    margin: auto;
+}
+
+section{
+    background-color: rgba(255, 255, 255, 0.229);
+    border: 1px solid white;
+    box-shadow: 0 0 10px 5px rgba(80, 170, 255, 0.368);
+    margin: 50px;
+    text-align: center;
+    padding: 10px;
+    border-radius: 10px;
+    text-align: center;
+}
+
+
+.banners{
+    padding: 20px;
+    margin: 50px;
+}
+
+
+.character{
+    display: flex;
+    gap: 20px;
+    padding: 10px;
+}
+
+.character #chrcard{
+    height: 400px;
+    background-color: blueviolet;
+}
+
+.character .card{
+    display: flex;
+    background-color: rgba(122, 122, 191, 0.43);
+    border-radius: 20px;
+    padding: 10px;
+    margin: 10px;
+    width: 920px;
+}
+
+.character .card .info{
+    width: 72%;
+    text-align: left;
+    padding: 10px;
+
+}
+
+/*decorating a red colored theme for yoimiya who is a fire character*/
+#yoimiyacard .card{
+    background-color: rgb(24, 0, 0);
+}
+#yoimiyacard .card img{
+    filter: drop-shadow(0 0 5px rgb(255, 111, 0));
+}
+
+#yaemikocard .card{
+    background-color: rgb(12, 0, 24);
+}
+#yaemikocard .card img{
+    filter: drop-shadow(0 0 5px rgb(229, 102, 255));
+}
+
+/*decorating a blue and greenish colored theme for kazuha who is a wind character*/
+#kazuhacard .card{
+    background-color: rgb(0, 24, 23);
+}
+#kazuhacard .card img{
+    filter: drop-shadow(0 0 5px rgb(102, 255, 212));
+}
+
+/*decorating green colored theme for kazuha who is a dendro(plant) character*/
+#alhaithamcard .card, #kiraracard .card{
+    background-color: rgb(0, 18, 0);
+}
+
+#alhaithamcard .card img , #kiraracard .card img{
+    filter: drop-shadow(0 0 5px rgb(35, 203, 41));
+}
+
+/*styling button*/
+
+button{
+    background-color: rgb(31, 151, 255);
+    border-radius: 20px;
+}
+
+
+
+
+
+.downloadsection{
+    background-image: url(pics/download\ bg.webp);
+    background-size: cover;
+    width: 1100px;
+    height: 530px;
+    display: flex;
+}
+
+.download{
+    position: absolute;
+    background-color: rgba(132, 185, 218, 0.458);
+    border: 1px solid white;
+    box-shadow: 0 0 5px 5px rgba(30, 143, 255, 0.54);
+    padding: 10px;
+    width: 300px;
+    margin-left: 240px;
+    margin-top: 356px;
+    height: 150px;
+    border-radius: 5px;
+}
+
+.download h3{
+    margin: 13px;
+}
+.the3buttonsinsec2{
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    gap: 7px;
+    height: 95px;
+}
+.the3buttonsinsec2 a{
+    background-color: rgba(255, 255, 255, 0.549);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    color: black;
+    text-decoration: none;
+    flex-direction: column;
+    height: 100%;
+    padding: 5px;
+    border-radius: 5px;
+}
+
+footer{
+    background-color: darkblue;
+    width: 100%;
+    text-align: center;
+}
