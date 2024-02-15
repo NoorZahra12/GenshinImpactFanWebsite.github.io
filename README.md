@@ -1,0 +1,1 @@
+# GenshinImpactFanWebsite.github.io
